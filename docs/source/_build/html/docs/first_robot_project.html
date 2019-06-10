@@ -1,0 +1,228 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Your First Robot Project &mdash; FRC 5190 Training Documentation 1.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Getting Started" href="getting_started.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> FRC 5190 Training Documentation
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Your First Robot Project</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#overview-of-robottemplate">Overview of RobotTemplate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#cloning-robottemplate">Cloning RobotTemplate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#opening-robottemplate-in-intellij-idea">Opening RobotTemplate in IntelliJ IDEA</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">FRC 5190 Training Documentation</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Your First Robot Project</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/docs/first_robot_project.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="your-first-robot-project">
+<h1>Your First Robot Project<a class="headerlink" href="#your-first-robot-project" title="Permalink to this headline">¶</a></h1>
+<p>Let’s now create your first robot project. All robot projects use a build system called <a class="reference external" href="https://gradle.org/">Gradle</a>.
+This build system allows us to retrieve dependencies from any online source. For example, if we wanted to use Team 254’s library, we can simply add it with one line to the
+<code class="docutils literal notranslate"><span class="pre">build.gradle</span></code> instead of having to download it manually.</p>
+<p>Furthermore, we can package and deploy all of our robot code to the robot with one task.</p>
+<div class="section" id="overview-of-robottemplate">
+<h2>Overview of RobotTemplate<a class="headerlink" href="#overview-of-robottemplate" title="Permalink to this headline">¶</a></h2>
+<p><code class="docutils literal notranslate"><span class="pre">RobotTemplate</span></code> is a repository created by Team 5190 that contains the basic template for every robot that we program. A link to this repository is available <a class="reference external" href="https://github.com/5190GreenHopeRobotics/RobotTemplate">here</a>.</p>
+</div>
+<div class="section" id="cloning-robottemplate">
+<h2>Cloning RobotTemplate<a class="headerlink" href="#cloning-robottemplate" title="Permalink to this headline">¶</a></h2>
+<p>We will now use Git to “clone” this repository onto your local computer. When you clone a repository, you create a local copy of it on your computer. Throughout your programming career at Team 5190, you will extensively use the command line. You should start to feel comfortable using the command line.</p>
+<p>Open a terminal window of your choice (PowerShell, Terminal, iTerm, etc.) and <code class="docutils literal notranslate"><span class="pre">cd</span></code> to the directory where you wish to clone the project. Then run the following command:</p>
+<p><code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">clone</span> <span class="pre">https://github.com/5190GreenHopeRobotics/RobotTemplate</span></code></p>
+<p>This will create a copy of the robot template project. You can <code class="docutils literal notranslate"><span class="pre">cd</span></code> into <code class="docutils literal notranslate"><span class="pre">RobotTemplate</span></code> and see its contents:</p>
+<img alt="../_images/robot_template_ls.png" src="../_images/robot_template_ls.png" />
+</div>
+<div class="section" id="opening-robottemplate-in-intellij-idea">
+<h2>Opening RobotTemplate in IntelliJ IDEA<a class="headerlink" href="#opening-robottemplate-in-intellij-idea" title="Permalink to this headline">¶</a></h2>
+<p>We will now open this project in our IDE, IntelliJ. Open IntelliJ IDEA. If you are opening it for the first time, you will be prompted for themes and plugins. Choose the theme of your choice and then skip extra plugins and choose defaults.</p>
+<p>Now, click on the <code class="docutils literal notranslate"><span class="pre">Open</span></code> option on the startup screen. Navigate to where your <code class="docutils literal notranslate"><span class="pre">RobotTemplate</span></code> project is stored and click on the main <code class="docutils literal notranslate"><span class="pre">RobotTemplate</span></code> folder. A Gradle window like the one in the image below should pop up. These default options should be fine. Click <code class="docutils literal notranslate"><span class="pre">Ok</span></code> and continue.</p>
+<img alt="docs\images/intellij_gradle_window.png" src="docs\images/intellij_gradle_window.png" />
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="getting_started.html" class="btn btn-neutral float-left" title="Getting Started" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Prateek Machiraju
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
