@@ -11,3 +11,4 @@ Welcome to FRC 5190 Training Documentation!
    :caption: Contents:
 
    docs/getting_started
+   docs/first_robot_project
