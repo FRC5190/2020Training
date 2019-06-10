@@ -7,8 +7,9 @@ In order to efficiently develop software for the team, we recommend specific too
 ## Robot Development Tools
 
 Please download the following:
+ 1. [Git](https://git-scm.com/downloads)
  1. [Java Development Kit 11 (JDK 11)](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html)
  1. [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/)
  1. [Python](https://www.python.org/downloads/)
 
-As an alternative, if you are on a Linux machine, you can use a package manager to install Python and the JDK.
+As an alternative, if you are on a Linux machine, you can use a package manager to install Git, Python, and the JDK.
