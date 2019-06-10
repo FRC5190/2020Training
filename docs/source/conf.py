@@ -55,4 +55,4 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
 # Specify the master doc file, AKA our homepage
-master_doc = "contents"
+master_doc = "index"
