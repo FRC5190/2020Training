@@ -11,12 +11,3 @@ Welcome to FRC 5190 Training Documentation!
    :caption: Contents:
 
    docs/getting_started
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
