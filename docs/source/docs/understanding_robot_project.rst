@@ -55,4 +55,4 @@ The ``init`` methods are run once whenever the corresponding phase of the robot 
  - ``teleop``: Describes the teleoperated period of the match. ``teleopInit`` is run once when the teleoperated period starts. ``teleopPeriodic`` is run every 20 milliseconds whenever the teleoperated period is enabled.
  - ``disabled``: Describes the disabled state of the robot. ``disabledInit`` is run once whenever the robot is disabled. ``disabledPeriodic`` is run every 20 milliseconds whenever the robot is disabled.
 
- You can see that the line ``Shuffleboard.update()`` is in the ``robotPeriodic()`` method. This means that the line ``Shuffleboard.update()`` is called every 20 milliseconds whenever the robot code is running. Do not worry about what this line does, we will get into it in later tutorials.
+You can see that the line ``Shuffleboard.update()`` is in the ``robotPeriodic()`` method. This means that the line ``Shuffleboard.update()`` is called every 20 milliseconds whenever the robot code is running. Do not worry about what this line does, we will get into it in later tutorials.
