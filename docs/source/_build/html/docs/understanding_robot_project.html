@@ -1,0 +1,242 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Understanding The Robot Project &mdash; FRC 5190 Training Documentation 1.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Your First Robot Project" href="first_robot_project.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> FRC 5190 Training Documentation
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="first_robot_project.html">Your First Robot Project</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Understanding The Robot Project</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">FRC 5190 Training Documentation</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Understanding The Robot Project</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/docs/understanding_robot_project.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="understanding-the-robot-project">
+<h1>Understanding The Robot Project<a class="headerlink" href="#understanding-the-robot-project" title="Permalink to this headline">¶</a></h1>
+<p>After opening the <code class="docutils literal notranslate"><span class="pre">RobotTemplate</span></code> project in IntelliJ IDEA, navigate to <code class="docutils literal notranslate"><span class="pre">src/main/kotlin/org/ghrobotics/frc2020/Robot.kt</span></code>. Open this file. Here you will see a list of Kotlin methods. Let’s take a look at each method below.</p>
+<div class="highlight-kotlin notranslate"><div class="highlight"><pre><span></span><span class="k">object</span> <span class="nc">Robot</span> <span class="p">:</span> <span class="n">FalconTimedRobot</span><span class="p">()</span> <span class="p">{</span>
+
+    <span class="c1">// Constructor of the Robot class.</span>
+    <span class="n">init</span> <span class="p">{</span>
+        <span class="c1">// Register the drivetrain into the SubsystemHandler.</span>
+        <span class="p">+</span><span class="n">Drivetrain</span>
+    <span class="p">}</span>
+
+    <span class="c1">// Runs once when robot boots up</span>
+    <span class="k">override</span> <span class="k">fun</span> <span class="nf">robotInit</span><span class="p">()</span> <span class="p">{}</span>
+
+    <span class="c1">// Runs once when autonomous period starts</span>
+    <span class="k">override</span> <span class="k">fun</span> <span class="nf">autonomousInit</span><span class="p">()</span> <span class="p">{}</span>
+
+    <span class="c1">// Runs once when teleop period starts</span>
+    <span class="k">override</span> <span class="k">fun</span> <span class="nf">teleopInit</span><span class="p">()</span> <span class="p">{}</span>
+
+    <span class="c1">// Runs once when robot is disabled</span>
+    <span class="k">override</span> <span class="k">fun</span> <span class="nf">disabledInit</span><span class="p">()</span> <span class="p">{}</span>
+
+
+    <span class="c1">// Runs every 20 ms when robot is on</span>
+    <span class="k">override</span> <span class="k">fun</span> <span class="nf">robotPeriodic</span><span class="p">()</span> <span class="p">{</span>
+        <span class="n">Shuffleboard</span><span class="p">.</span><span class="n">update</span><span class="p">()</span>
+    <span class="p">}</span>
+
+    <span class="c1">// Runs every 20 ms when autonomous is enabled</span>
+    <span class="k">override</span> <span class="k">fun</span> <span class="nf">autonomousPeriodic</span><span class="p">()</span> <span class="p">{}</span>
+
+    <span class="c1">// Runs every 20 ms when teleop is enabled</span>
+    <span class="k">override</span> <span class="k">fun</span> <span class="nf">teleopPeriodic</span><span class="p">()</span> <span class="p">{}</span>
+
+    <span class="c1">// Runs every 20 ms when robot is disabled</span>
+    <span class="k">override</span> <span class="k">fun</span> <span class="nf">disabledPeriodic</span><span class="p">()</span> <span class="p">{}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>You will quickly notice that there are four methods associated with <code class="docutils literal notranslate"><span class="pre">init</span></code> and four methods associated with <code class="docutils literal notranslate"><span class="pre">periodic</span></code>.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">init</span></code> methods are run once whenever the corresponding phase of the robot is entered.</p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="first_robot_project.html" class="btn btn-neutral float-left" title="Your First Robot Project" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Prateek Machiraju
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+Understanding The Robot Project
+===============================
+
+After opening the ``RobotTemplate`` project in IntelliJ IDEA, navigate to ``src/main/kotlin/org/ghrobotics/frc2020/Robot.kt``. Open this file. Here you will see a list of Kotlin methods. Let's take a look at each method below.
+
+.. code-block:: kotlin
+
+    object Robot : FalconTimedRobot() {
+
+        // Constructor of the Robot class.
+        init {
+            // Register the drivetrain into the SubsystemHandler.
+            +Drivetrain
+        }
+
+        // Runs once when robot boots up
+        override fun robotInit() {}
+
+        // Runs once when autonomous period starts
+        override fun autonomousInit() {}
+
+        // Runs once when teleop period starts
+        override fun teleopInit() {}
+
+        // Runs once when robot is disabled
+        override fun disabledInit() {}
+
+
+        // Runs every 20 ms when robot is on
+        override fun robotPeriodic() {
+            Shuffleboard.update()
+        }
+
+        // Runs every 20 ms when autonomous is enabled
+        override fun autonomousPeriodic() {}
+
+        // Runs every 20 ms when teleop is enabled
+        override fun teleopPeriodic() {}
+
+        // Runs every 20 ms when robot is disabled
+        override fun disabledPeriodic() {}
+    }
+
+You will quickly notice that there are four methods associated with ``init`` and four methods associated with ``periodic``.
+
+The ``init`` methods are run once whenever the corresponding phase of the robot is entered.
