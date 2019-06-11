@@ -48,7 +48,8 @@ After opening the ``RobotTemplate`` project in IntelliJ IDEA, navigate to ``src/
 
 You will quickly notice that there are four methods associated with ``init`` and four methods associated with ``periodic``.
 
-The ``init`` methods are run once whenever the corresponding phase of the robot is entered. The ``periodic`` methods are run once every 20 milliseconds during that phase.
+The ``init`` methods are run once whenever the corresponding phase of the robot is entered. The ``periodic`` methods are run once every 20 milliseconds during that phase. The four "phases" are described below:
+
  - ``robot``: Describes the initialization of the robot code. ``robotInit`` is run once when the robot code first starts up and ``robotPeriodic`` is run every 20 milliseconds whenever the robot code is running.
  - ``autonomous``: Describes the autonomous period of the match. ``autonomousInit`` is run once when the autonomous period starts. ``autonomousPeriodic`` is run every 20 milliseconds whenever the autonomous period is enabled.
  - ``teleop`` Describes the teleoperated period of the match. ``teleopInit`` is run once when the teleoperated period starts. ``teleopPeriodic`` is run every 20 milliseconds whenever the teleoperated period is enabled.
