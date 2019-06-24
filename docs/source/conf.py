@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'FRC 5190 Training Documentation'
-copyright = '2019, Prateek Machiraju'
-author = 'Prateek Machiraju'
+copyright = '2019, FRC 5190'
+author = 'FRC 5190'
 
 # The full version, including alpha/beta/rc tags
 release = '1.0.0'
@@ -31,6 +31,7 @@ release = '1.0.0'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinx.ext.autosectionlabel'
 ]
 
 # Add any paths that contain templates here, relative to this directory.

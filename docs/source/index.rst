@@ -14,3 +14,5 @@ Welcome to FRC 5190 Training Documentation!
    docs/first_robot_project
    docs/understanding_robot_project
    docs/subsystems
+   docs/motors
+   docs/drive_subsystem
