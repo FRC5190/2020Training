@@ -16,3 +16,5 @@ Welcome to FRC 5190 Training Documentation!
    docs/subsystems
    docs/motors
    docs/drive_subsystem
+
+   docs/git_usage
