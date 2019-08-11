@@ -19,10 +19,8 @@ When you are working on your feature branch, other changes might be pushed to ``
 
 First, fetch the new commits:
 ``git fetch -p origin``
-
 Then, rebase on top of master:
 ``git rebase origin/master``
-
 Force push the changes to your feature branch:
 ``git push --force``
 
