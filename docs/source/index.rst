@@ -10,11 +10,5 @@ Welcome to FRC 5190 Training Documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   docs/getting_started
-   docs/first_robot_project
-   docs/understanding_robot_project
-   docs/subsystems
-   docs/motors
-   docs/drive_subsystem
-
-   docs/git_usage
+   docs/welcome
+   docs/projects
