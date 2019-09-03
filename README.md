@@ -25,35 +25,35 @@ There is no restriction on which tracks you choose or how many tracks you choose
 
 1. Will you teach JavaScript or Kotlin during the sessions?
 
-A. No. You are expected to learn these as you go along. You can get some help in the meetings, but that will be driven by your questions.
+    No. You are expected to learn these as you go along. You can get some help in the meetings, but that will be driven by your questions.
 
 2. How much time do I have to spend per week?
 
-A. If you are new to programming, you will be spending at least two hours per week at home in addition to the time you spend at the build space. Successful programmers that have an impact on the team spend several hours per week.
+    If you are new to programming, you will be spending at least two hours per week at home in addition to the time you spend at the build space. Successful programmers that have an impact on the team spend several hours per week.
 
 3. Do I need to pick a track to work on?
 
-A. No. You can pick the first project in any track (or in multiple tracks) and work on it. When you are done, you can pick the next project in that track. We do not recommend picking a more advanced project in a track without first completing the earlier projects in that track.
+    No. You can pick the first project in any track (or in multiple tracks) and work on it. When you are done, you can pick the next project in that track. We do not recommend picking a more advanced project in a track without first completing the earlier projects in that track.
 
 4. What do I do at home? What do I do at build space?
 
-A. At home, you work on your projects. That is the ideal place for you to search online, research, learn, and complete your project. At the build space, you will present your solutions, discuss and compare your solution with others, and ask questions to improve your understanding.
+    At home, you work on your projects. That is the ideal place for you to search online, research, learn, and complete your project. At the build space, you will present your solutions, discuss and compare your solution with others, and ask questions to improve your understanding.
 
 5. If I have a question, who do I ask?
 
-A. You can use the programming channel on discord to ask any questions at any time during the week. One of the programming leads or mentors will respond.
+    You can use the programming channel on discord to ask any questions at any time during the week. One of the programming leads or mentors will respond.
 
 6. Who will be at the build space to help me?
 
-A. Programming leads and mentors will be at the build space to help. You can also get help from your peers who are having fun working on the same projects.
+    Programming leads and mentors will be at the build space to help. You can also get help from your peers who are having fun working on the same projects.
 
 7. What do I need in order to program?
 
-A. You will need to have a Windows or Mac laptop. (A Windows laptop is preferred). Depending on the track(s) that you choose, you will be installing various software tools on it. Each of the projects has instructions on what you need to install. You will need to bring your laptop to the build space to present and discuss your work.
+    You will need to have a Windows or Mac laptop. (A Windows laptop is preferred). Depending on the track(s) that you choose, you will be installing various software tools on it. Each of the projects has instructions on what you need to install. You will need to bring your laptop to the build space to present and discuss your work.
 
 8. Where do I sign up?
 
-A. Once you are a member of FRC Team 5190, make sure that you (a) join the programming channel in team's discord, (b) form a small team with 1 or 2 other students. Then, you are ready to pick your projects and dive in.
+    Once you are a member of FRC Team 5190, make sure that you (a) join the programming channel in team's discord, (b) form a small team with 1 or 2 other students. Then, you are ready to pick your projects and dive in.
 
 ## Next steps
 
