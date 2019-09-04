@@ -12,14 +12,16 @@ Overview of RobotTemplate
 
 ``RobotTemplate`` is a repository created by Team 5190 that contains the basic template for every robot that we program. A link to this repository is available `here <https://github.com/5190GreenHopeRobotics/RobotTemplate>`_. 
 
-Cloning RobotTemplate
+Forking RobotTemplate
 ---------------------
 
-We will now use Git to "clone" this repository onto your local computer. When you clone a repository, you create a local copy of it on your computer. Throughout your programming career at Team 5190, you will extensively use the command line. You should start to feel comfortable using the command line.
+We will first "fork" this repository and create your own copy. Open https://github.com/5190GreenHopeRobotics/RobotTemplate in your browser. Select ``fork`` button in the upper right corner. This will create a copy of this repository under your own GitHub account. You will be redirected to your forked copy. Notice that the URL of this repository will be something like https://github.com/your-account/RobotTemplate.
+
+Now, you will clone the repository to your local computer. Throughout your programming career at Team 5190, you will extensively use the command line. You should start to feel comfortable using the command line.
 
 Open a terminal window of your choice (PowerShell, Terminal, iTerm, etc.) and ``cd`` to the directory where you wish to clone the project. Then run the following command:
 
-``git clone https://github.com/5190GreenHopeRobotics/RobotTemplate``
+``git clone https://github.com/your-account/RobotTemplate``
 
 This will create a copy of the robot template project. You can ``cd`` into ``RobotTemplate`` and see its contents:
 
