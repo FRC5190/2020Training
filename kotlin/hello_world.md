@@ -16,7 +16,7 @@ None
 
 1. Create a new Kotlin JVM project in IntelliJ:  `File` ->` New` -> `Project Select`. In the project SDK dropdown, select the Java verison that you installed in step 2 of the instructions. Select `Kotlin/JVM` under `Additional Libraries and Framework`. Press `Create`. Name your project and continue.
    
-2. Once your project loads, click the dropdown on your project folder. Right click the src folder and select 
+2. Once your project loads, click the dropdown on your project folder. Right click the `src` folder and select 
    New -> Kotlin File/Class. Name your file HelloWorld.
 
 3. Write a method called main. The body of the method should print "Hello World" onto the console when the program is run.
