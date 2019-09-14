@@ -18,4 +18,7 @@ None
 
 2. Write a method called main. The body of the method should print "Hello World" onto the console when the program is run.
 
-3. Once you get step 2 to work, create a new function after the "main" method that returns a string set to "Hello World". Call this function in a print statement in your main method. 
+3. Once you get step 2 to work, create a new method after the "main" method that returns a string set to "Hello World". Call this function in a print statement in your main method. 
+
+4. Come and show off your work!
+   
