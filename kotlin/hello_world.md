@@ -1,6 +1,6 @@
 # Hello world
 
-In this project, you will write yor first kotlin program that will print Hello World.
+In this project, you will write your first kotlin program that will print Hello World.
 
 ## Prerequisites
 
