@@ -1,6 +1,6 @@
 # Team 5190 Programming Training
 
-Welcome to Team 5190's Programming Training! We are glad that you have chosen programming as your field of interest. Here, you will find various tracks that you can pursue depending on where your interest lies. This training is mostly self-paced. You will be working on these projects on your own, and at home. You will use your time at build space to present and discuss your results. You will also have the opportunity to ask questions or clarify what you need to do. The more projects you finish, the more you will get and the more your impact on the team will be.
+Welcome to Team 5190's Programming Training! We are glad that you have chosen programming as your field of interest. Here, you will find various tracks that you can pursue depending on where your interest lies. This training is mostly self-paced. You will be working on these projects on your own, and at home. You will use your time at build space to present and discuss your results. You will also have the opportunity to ask questions or clarify what you need to do. The more projects you finish, the more you will learn and the more your impact on the team will be.
 
 ## Projects
 
@@ -19,46 +19,48 @@ Then, you will try a few standard algorithms to measure the performance of each 
 
 - **x50: Programming the robot:** Implement subsystems for the robot. You should have demonstrated mastery on x30 track before diving into this one.
 
-There is no restriction on which tracks you choose or how many tracks you choose. You will typically work work in groups of 2-3 students on each project.
+There is no restriction on which tracks you choose or how many tracks you choose.
 
 ## FAQ
+
+1. Can I do programming and something else in this club?
+
+    Yes. You are expected to spend your time on multiple areas. However, you should pick one area to spend most of your time in.
+
+1. How many programmers do you need for the club?
+
+    We typically need around 10 programmers every year. Although a lot more students start with programming, only a few of them take programming seriously, spend time at home to learn more, complete all the projects, and start contributing at a deeper level.
 
 1. Will you teach JavaScript or Kotlin during the sessions?
 
     No. You are expected to learn these as you go along. You can get some help in the meetings, but that will be driven by your questions.
 
-2. How much time do I have to spend per week?
+1. How much time do I have to spend per week?
 
     If you are new to programming, you will be spending at least two hours per week at home in addition to the time you spend at the build space. Successful programmers that have an impact on the team spend several hours per week.
 
-3. Do I need to pick a track to work on?
+1. Do I need to pick one of the programming tracks to work on?
 
     No. You can pick the first project in any track (or in multiple tracks) and work on it. When you are done, you can pick the next project in that track. We do not recommend picking a more advanced project in a track without first completing the earlier projects in that track.
 
-4. What do I do at home? What do I do at build space?
+1. What do I do at home? What do I do at build space?
 
     At home, you work on your projects. That is the ideal place for you to search online, research, learn, and complete your project. At the build space, you will present your solutions, discuss and compare your solution with others, and ask questions to improve your understanding.
 
-5. If I have a question, who do I ask?
+1. If I have a question, who do I ask?
 
     You can use the programming channel on discord to ask any questions at any time during the week. One of the programming leads or mentors will respond.
 
-6. Who will be at the build space to help me?
+1. Who will be at the build space to help me?
 
     Programming leads and mentors will be at the build space to help. You can also get help from your peers who are having fun working on the same projects.
 
-7. What do I need in order to program?
+1. What do I need in order to program?
 
     You will need to have a Windows or Mac laptop. (A Windows laptop is preferred). Depending on the track(s) that you choose, you will be installing various software tools on it. Each of the projects has instructions on what you need to install. You will need to bring your laptop to the build space to present and discuss your work.
 
-8. Where do I sign up?
-
-    Once you are a member of FRC Team 5190, make sure that you (a) join the programming channel in team's discord, (b) form a small team with 1 or 2 other students. Then, you are ready to pick your projects and dive in.
-
 ## Next steps
 
-1. Make sure that you are signed up for FRC Team 5190.
-2. Join the programming channel on discord.
-3. Get a GitHub id and post it on the discord programming channel along with your name.
-4. Form a small team with 1 or 2 other students that have similar interests (in the tracks above).
-5. Dive in and work on the projects. You can find a list of projects [here](projects.md).
+1. Join the programming channel for our team on discord.
+1. Create a GitHub id and post it on the discord programming channel along with your name.
+1. Dive in and work on the projects. You can find a list of projects [here](projects.md).

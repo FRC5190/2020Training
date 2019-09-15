@@ -8,7 +8,7 @@ None
 
 ## Instructions
 
-1. Learn the basics of using GitHub. Google is your friend. Write one sentence that describes each of the following:
+1. Learn the basics of using GitHub. Write one sentence that describes each of the following:
     - Repository
     - File
     - Clone
