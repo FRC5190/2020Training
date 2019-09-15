@@ -7,7 +7,7 @@
 
 ## x10: Data analytics
 
-- 110: Score a match
+- 110: [Score a match](score_match.md)
 - 210: Alliance pick
 - 310: OPR
 - 410: Which one is better? OPR, DPR, CCWM?
