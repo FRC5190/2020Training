@@ -14,6 +14,6 @@ None
 
 1. Open VSCode. Create a new file called `HelloWorld.js`. To this file, add javascript code to print `Hello world`.
    
-1. From the command line, run the javascript file.
+1. From the command line, run the JavaScript file.
 
 1. Come and show off your work!
