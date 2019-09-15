@@ -14,7 +14,9 @@
 
 ## x20: JavaScript
 
-## x30: Java
+## x30: Kotlin
+
+- 130: [Hello world](kotlin/hello_world.md)
 
 ## x40: Falcon Scout mobile app
 
