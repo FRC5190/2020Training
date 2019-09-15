@@ -2,17 +2,15 @@
 
 ## x00: Common track
 
-- 100: [Using Git](using_git.md)
-- 200: [2019 game](2019_game.md)
+- 100: [2019 game](common/2019_game.md)
+- 200: [Using Git](common/using_git.md)
 
 ## x10: Data analytics
 
-- 110: Score a match
-- 210: Alliance pick
-- 310: OPR
-- 410: Which one is better? OPR, DPR, CCWM?
+- 110: [Score a match](data/score_match.md)
 
 ## x20: JavaScript
+- 120: [Hello world](javascript/hello_world.md)
 
 ## x30: Kotlin
 

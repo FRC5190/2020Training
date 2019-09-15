@@ -8,19 +8,19 @@ None
 
 ## Instructions
 
-1. Learn the basics of using GitHub. Google is your friend. Write one sentence that describes each of the following:
- - Repository
- - File
- - Clone
- - Branch
- - Master
- - Push
- - Pull request
+1. Learn the basics of using GitHub. Write one sentence that describes each of the following:
+    - Repository
+    - File
+    - Clone
+    - Branch
+    - Master
+    - Push
+    - Pull request
 
 2. Our team stores all the repositories here: https://github.com/frc5190. Answer the following questions:
- - How many repositories do you see here?
- - Which repository do you think contains the code for 2019 competition robot?
- - What repository is this training material in?
+    - How many repositories do you see here?
+    - Which repository do you think contains the code for 2019 competition robot?
+    - What repository is this training material in?
 
 3. Install Git on your machine. Search for `Git for windows` or `Git for mac`.
 
