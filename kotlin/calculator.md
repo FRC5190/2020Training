@@ -9,7 +9,7 @@ Hello World program (130)
 ## Instructions
 
 1. Create a new project called `Calculator Program` and a new Kotlin file within your project. Name the file `Calculator`.
-2. Create you `main` method
+Create your `main` method.
 3. Create four new methods within your file that will compute and return the sum, difference, product, and quotient of two numbers passed to them.
 4. Initialize two variables in your `main` method and send them to each of the methods. In the `main` method, print the return value of each method.
 5. Create a new method that will convert inches to feet. The method should return a string stating the total amount of feet as well as the leftover inches based on the value that you passed to it. Call this method in your `main` method and print the result.
