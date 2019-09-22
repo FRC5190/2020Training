@@ -11,6 +11,8 @@
 
 ## x20: JavaScript
 - 120: [Hello world](javascript/hello_world.md)
+- 220: [Echo](javascript/echo.md)
+- 320: [Matches](javascript/matches.md)
 
 ## x30: Kotlin
 
