@@ -73,13 +73,13 @@ In this project, you will test your understanding of the following:
     ] 
    ```
 
-1. For a complete example of a test file, download [this file](matches_sample.txt).
+1. For a complete example of a test file, download [this file](matches_sample.json).
 
 1. Here is a sample interaction with the program:
 
    ```cmd
    D:\5190\matches> node index.js
-   Enter a file name: D:\5190\matches\matches_sample.txt
+   Enter a file name: D:\5190\matches\matches.json
    Enter your team: 5190
    Team 5190 is in the following matches:
    Match 1 (f): 5511 587 6729 | 1533 5190 4290
