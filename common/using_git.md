@@ -28,12 +28,14 @@ None
 
 5. Clone the `2020Training` repository to your machine. Using VS code browse through the files of this repository on your local machine.
 
-6. Create a new branch called `teams/<your-team-name>` in this repository on your local machine.
+6. Create a new branch called `users/<your-github-id>/200git` in this repository on your local machine.
 
-7. Add a new file called `docs/<your-team-name>.md`. Add a description of your team, the names of your team members, and an explanation of what you know in programming to this file.
+7. Add a new file `<your-github-id>.md` to the `users` folder. In this file, mention your name and a little introduction to yourself. Every time you complete a project, update this file to list all of your completed projects.
 
 8. Push your branch to the GitHub repository.
 
 9. Create a pull request to merge the contents of your branch to master.
 
-10. Come and show off your work at the build space.
+10. Switch your local workspace to the master branch.
+
+11. Come and show off your work at the build space.
