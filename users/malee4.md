@@ -4,4 +4,5 @@ I am a freshman at Green Hope High who is hoping to gain some experience in prog
 
 ## Projects Completed
 100: 2019 Game
+130: Hello world
 200: Using Git
