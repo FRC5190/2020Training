@@ -10,7 +10,7 @@ Hello World program (130) and Calculator program (230)
 
 1. Create a new project called `Loops` and a new Kotlin file within your project. Name the file `main`.
 Create your `main` method.
-1. Create a new Koltin class within your project and name it `loops`. 
+1. Create a new Kotlin class within your project and name it `loops`. 
 2. Create a method called `basicForLoops`. Write four seperate for loops that will...    
     - print variable x in 0-10 inclusive
     - print variable x in 0-10 not inlusive of 10
