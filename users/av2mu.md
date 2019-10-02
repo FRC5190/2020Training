@@ -1,6 +1,6 @@
 # Anish Toomu
 
-sophomore
+sophomore at ghhs
 
 ## Projects Completed
 
