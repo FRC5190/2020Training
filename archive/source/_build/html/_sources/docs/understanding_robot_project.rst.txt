@@ -6,7 +6,7 @@ We will now take a look at the code that is in the default robot project and und
 Main Robot class
 ----------------
 
-After opening the ``RobotTemplate`` project in IntelliJ IDEA, navigate to ``src/Calculator.main/kotlin/org/ghrobotics/frc2020/Robot.kt``. Open this file. Here you will see a list of Kotlin methods. Let's take a look at each method below.
+After opening the ``RobotTemplate`` project in IntelliJ IDEA, navigate to ``src/calculator.calculator.main/kotlin/org/ghrobotics/frc2020/Robot.kt``. Open this file. Here you will see a list of Kotlin methods. Let's take a look at each method below.
 
 .. code-block:: kotlin
 

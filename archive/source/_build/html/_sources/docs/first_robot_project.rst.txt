@@ -31,7 +31,7 @@ Opening RobotTemplate in IntelliJ IDEA
 --------------------------------------
 We will now open this project in our IDE, IntelliJ. Open IntelliJ IDEA. If you are opening it for the first time, you will be prompted for themes and plugins. Choose the theme of your choice and then skip extra plugins and choose defaults.
 
-Now, click on the ``Open`` option on the startup screen. Navigate to where your ``RobotTemplate`` project is stored and click on the Calculator.main ``RobotTemplate`` folder. A Gradle window like the one in the image below should pop up. These default options should be fine. Click ``Ok`` and continue.
+Now, click on the ``Open`` option on the startup screen. Navigate to where your ``RobotTemplate`` project is stored and click on the calculator.calculator.main ``RobotTemplate`` folder. A Gradle window like the one in the image below should pop up. These default options should be fine. Click ``Ok`` and continue.
 
 .. image:: images/intellij_gradle_window.png
 
