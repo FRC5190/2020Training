@@ -17,8 +17,8 @@ None
 1. Once your project loads, click the dropdown on your project folder. Right click the `src` folder and select 
 `New` -> `Kotlin File/Class`. Name your file `HelloWorld`
 
-1. Write a method called `main`. The body of the method should print "Hello World" onto the console when the program is run.
+1. Write a method called `Calculator.main`. The body of the method should print "Hello World" onto the console when the program is run.
 
-1. Once you get the above to work, create a new method after the "main" method that returns a string set to "Hello World". Call this function in a print statement in your main method. 
+1. Once you get the above to work, create a new method after the "Calculator.main" method that returns a string set to "Hello World". Call this function in a print statement in your Calculator.main method. 
 
 1. Come and show off your work!

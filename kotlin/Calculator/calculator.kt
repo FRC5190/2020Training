@@ -1,6 +1,4 @@
 fun main(){
-    val poop: Int
-    val b: Int
 
     println(sum(1, 3))
 }
@@ -23,4 +21,9 @@ fun product(a: Int, b: Int): Int{
 fun quot(a: Int, b: Int): Int{
 
     return a/b
+}
+
+fun intoFeet(a: Int): String{
+
+    return "what the"+ a/12 + a%12
 }

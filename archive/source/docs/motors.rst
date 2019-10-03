@@ -13,24 +13,24 @@ Both ``FalconSRX`` and ``FalconMAX`` require a ``NativeUnitModel``. This model c
  - |NativeUnitRotationModel|_: Use this for rotational systems where you have the number of sensor ticks per one rotation.
  - |SlopeNativeUnitModel|_: Use this for linear systems where you know the number of ticks produced by moving the mechanism for a known distance.
 
-You can implement your own custom native unit model by extending the ``NativeUnitModel`` `abstract class <https://github.com/5190GreenHopeRobotics/FalconLibrary/blob/master/core/src/main/kotlin/org/ghrobotics/lib/mathematics/units/nativeunits/NativeUnitModel.kt>`_. An example of a custom native unit model is `here <https://github.com/5190GreenHopeRobotics/2019CompetitionSeason/blob/master/src/main/kotlin/org/ghrobotics/frc2019/subsystems/elevator/SpringCascadeNativeUnitModel.kt>`_.
+You can implement your own custom native unit model by extending the ``NativeUnitModel`` `abstract class <https://github.com/5190GreenHopeRobotics/FalconLibrary/blob/master/core/src/Calculator.main/kotlin/org/ghrobotics/lib/mathematics/units/nativeunits/NativeUnitModel.kt>`_. An example of a custom native unit model is `here <https://github.com/5190GreenHopeRobotics/2019CompetitionSeason/blob/master/src/Calculator.main/kotlin/org/ghrobotics/frc2019/subsystems/elevator/SpringCascadeNativeUnitModel.kt>`_.
 
 Default motor methods
 ---------------------
-All ``FalconLibrary`` motors implement the ``FalconMotor`` `base class <https://github.com/5190GreenHopeRobotics/FalconLibrary/blob/master/wpi/src/main/kotlin/org/ghrobotics/lib/motors/FalconMotor.kt>`_. This base class has a few methods and properties that you can use across motor controllers. The various properties and methods are documented in the base class.
+All ``FalconLibrary`` motors implement the ``FalconMotor`` `base class <https://github.com/5190GreenHopeRobotics/FalconLibrary/blob/master/wpi/src/Calculator.main/kotlin/org/ghrobotics/lib/motors/FalconMotor.kt>`_. This base class has a few methods and properties that you can use across motor controllers. The various properties and methods are documented in the base class.
 
 
 .. |DefaultNativeUnitModel| replace:: ``DefaultNativeUnitModel``
-.. _DefaultNativeUnitModel: https://github.com/5190GreenHopeRobotics/FalconLibrary/blob/master/core/src/main/kotlin/org/ghrobotics/lib/mathematics/units/nativeunits/DefaultNativeUnitModel.kt
+.. _DefaultNativeUnitModel: https://github.com/5190GreenHopeRobotics/FalconLibrary/blob/master/core/src/Calculator.main/kotlin/org/ghrobotics/lib/mathematics/units/nativeunits/DefaultNativeUnitModel.kt
 
 
 .. |NativeUnitLengthModel| replace:: ``NativeUnitLengthModel``
-.. _NativeUnitLengthModel: https://github.com/5190GreenHopeRobotics/FalconLibrary/blob/master/core/src/main/kotlin/org/ghrobotics/lib/mathematics/units/nativeunits/NativeUnitLengthModel.kt
+.. _NativeUnitLengthModel: https://github.com/5190GreenHopeRobotics/FalconLibrary/blob/master/core/src/Calculator.main/kotlin/org/ghrobotics/lib/mathematics/units/nativeunits/NativeUnitLengthModel.kt
 
 .. |NativeUnitRotationModel| replace:: ``NativeUnitRotationModel``
-.. _NativeUnitRotationModel: https://github.com/5190GreenHopeRobotics/FalconLibrary/blob/master/core/src/main/kotlin/org/ghrobotics/lib/mathematics/units/nativeunits/NativeUnitRotationModel.kt
+.. _NativeUnitRotationModel: https://github.com/5190GreenHopeRobotics/FalconLibrary/blob/master/core/src/Calculator.main/kotlin/org/ghrobotics/lib/mathematics/units/nativeunits/NativeUnitRotationModel.kt
 
 .. |SlopeNativeUnitModel| replace:: ``SlopeNativeUnitModel``
-.. _SlopeNativeUnitModel: https://github.com/5190GreenHopeRobotics/FalconLibrary/blob/master/core/src/main/kotlin/org/ghrobotics/lib/mathematics/units/nativeunits/SlopeNativeUnitModel.kt
+.. _SlopeNativeUnitModel: https://github.com/5190GreenHopeRobotics/FalconLibrary/blob/master/core/src/Calculator.main/kotlin/org/ghrobotics/lib/mathematics/units/nativeunits/SlopeNativeUnitModel.kt
 
 
