@@ -12,7 +12,7 @@ None
 
 1. Install VSCode from [here](https://code.visualstudio.com/). Watch a tutorial on using VSCode editor.
 
-1. Open VSCode. Create a new file called `HelloWorld.js`. To this file, add javascript code to print `Hello world`.
+1. Open VSCode. Create a new file called `helloWorld.js`. To this file, add javascript code to print `Hello world`.
    
 1. From the command line, run the JavaScript file.
 

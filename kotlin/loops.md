@@ -8,8 +8,8 @@ Hello World program (130) and calculator program (230)
 
 ## Instructions
 
-1. Create a new project called `Loops` and a new Kotlin file within your project. Name the file `calculator.calculator.main`.
-Create your `calculator.calculator.main` method.
+1. Create a new project called `Loops` and a new Kotlin file within your project. Name the file `calculator.calculator.loops.calculator.helloWorld.main`.
+Create your `calculator.calculator.loops.calculator.helloWorld.main` method.
 1. Create a new Kotlin class within your project and name it `loops`. 
 2. Create a method called `basicForLoops`. Write four seperate for loops that will...    
     - print variable x in 0-10 inclusive
@@ -23,5 +23,5 @@ Create your `calculator.calculator.main` method.
 5. Create a method called `forEachStatement`. In your method create a list of two string elements and using a forEach statement, print each of the strings.
 6. Create a method called `delay`. Add two print statements and add code for a 2 second delay between the statements.
 7. At the top of your `loops` class, add an initializing constructor that prints `initialized`
-8.  Go back to the file with your `calculator.calculator.main` method and create an object from your `loops` class. Then call each of the methods from the `loops` class using the object you created.
+8.  Go back to the file with your `calculator.calculator.loops.calculator.helloWorld.main` method and create an object from your `loops` class. Then call each of the methods from the `loops` class using the object you created.
 9.  Come show off your work!
