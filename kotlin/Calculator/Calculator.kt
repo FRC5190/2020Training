@@ -1,27 +1,26 @@
-fun main() {
+fun main(){
+    val poop: Int
+    val b: Int
 
-    var num1 = 4
-    var num2 = 4
-    var answer1
-
-    println(answer1)
-
-
-
+    println(sum(1, 3))
 }
 
-fun sum() {
-    num1 + num2 = answer1
+fun sum(a: Int, b: Int): Int {
+
+    return a+b
 }
 
-fun difference() {
-    num1 - num2 = answer2
+fun diff(a: Int, b: Int): Int {
+
+    return a-b
 }
 
-fun product() {
-    num1*num2 = answer3
+fun product(a: Int, b: Int): Int{
+
+    return a*b
 }
 
-fun quotient() {
-    num1/num2 = answer4
+fun quot(a: Int, b: Int): Int{
+
+    return a/b
 }
