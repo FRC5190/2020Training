@@ -1,6 +1,6 @@
 fun main(){
 
-    println(sum(1, 3))
+    println(intoFeet(36))
 }
 
 fun sum(a: Int, b: Int): Int {
@@ -25,5 +25,5 @@ fun quot(a: Int, b: Int): Int{
 
 fun intoFeet(a: Int): String{
 
-    return "what the"+ a/12 + a%12
+    return ""+ a/12 + a%12
 }
