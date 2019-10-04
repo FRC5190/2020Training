@@ -1,6 +1,7 @@
 package loops
 
 import java.util.*
+import kotlin.concurrent.schedule
 
 
 class Loops {
@@ -57,9 +58,16 @@ class Loops {
         }
     }
 
-    fun delayTime() {
-        val timer = Timer("schedule", true);
 
+
+    fun delay(){
+
+        println("Hello World")
+        Timer("schedule", false).schedule(2000) {
+            println("Hello World")
+            System.exit(0)
+
+        }
     }
 }
 
