@@ -1,5 +1,7 @@
 package loops
 
+import java.util.*
+
 
 class Loops {
     fun basicForLoops() {
@@ -56,12 +58,8 @@ class Loops {
     }
 
     fun delayTime() {
+        val timer = Timer("schedule", true);
 
-        var x = 0
-        while (x < 2) {
-            println("hello world!")
-            x += 1
-        }
     }
 }
 
