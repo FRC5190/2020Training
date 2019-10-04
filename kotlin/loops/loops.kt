@@ -5,6 +5,11 @@ import kotlin.concurrent.schedule
 
 
 class Loops {
+
+    init {
+        println("initialized")
+    }
+
     fun basicForLoops() {
 
         for (x in 0..10) {
