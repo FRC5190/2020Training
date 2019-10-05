@@ -19,6 +19,7 @@
 - 130: [Hello world](kotlin/hello_world.md)
 - 230: [Calculator program](kotlin/calculator.md)
 - 330: [Loops](kotlin/loops.md)
+- 430: [ifStatements](kotlin/ifStatements.md)
 
 ## x40: Falcon Scout mobile app
 
