@@ -1,4 +1,4 @@
-# Loops
+# If Statements
 
 In this project, you will practice writing if statements, try catches, and when statements.
 
