@@ -24,3 +24,4 @@
 ## x40: Falcon Scout mobile app
 
 ## x50: Robot subsystems
+- 150: [basic drivetrain](kotlinDrivetrain.md)
