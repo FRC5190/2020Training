@@ -19,9 +19,9 @@
 - 130: [Hello world](kotlin/hello_world.md)
 - 230: [Calculator program](kotlin/calculator.md)
 - 330: [Loops](kotlin/loops.md)
-- 430: [ifStatements](kotlin/ifStatements.md)
+- 430: [If Statements](kotlin/ifStatements.md)
 
 ## x40: Falcon Scout mobile app
 
 ## x50: Robot subsystems
-- 150: [basic drivetrain](kotlinDrivetrain.md)
+- 150: [Basic drivetrain](kotlinDrivetrain.md)
