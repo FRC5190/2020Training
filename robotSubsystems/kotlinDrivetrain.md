@@ -1,6 +1,6 @@
 # Kotlin Drivetrain
 
-This is the basic code for a tank drive drivetrain.
+This is the basic drivetrain code for tank drive .
 
 ## Prerequisites
 
